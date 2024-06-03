@@ -15,6 +15,27 @@ app.get("/", (req, res) => {
 });
 
 
+// Testing Some res methods
+
+app.get("/test", (req, res) => {
+    res.json({ name: "John", age: 30, city: "Bangalore" });
+}
+);
+
+app.get("/vturesults", (req, res) => {
+    res.redirect("https://youtu.be/dQw4w9WgXcQ?si=L9AB4fN3xC4voyUQ");
+}
+);
+
+app.get("/rcbcup", (req, res) => {
+    return res.status(501).send("Not Implemented");
+    
+}
+);
+
+
+
+
 
 
 
