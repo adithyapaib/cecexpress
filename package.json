@@ -1,0 +1,25 @@
+{
+  "name": "expressworkshop",
+  "version": "1.0.0",
+  "description": "A simple URL Shortner Build with Express JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adithyapai/expressworkshop.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Adithya Pai B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adithyapai/expressworkshop/issues"
+  },
+  "homepage": "https://github.com/adithyapai/expressworkshop#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
