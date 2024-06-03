@@ -113,6 +113,8 @@ app.get("/get/:name/:email", (req, res) => {
 }
 );
 
+// Route to handle all the requests that are not handled by the above routes
+app.get("/*", (req, res) => { res.send(`<img src="https://c.tenor.com/q2eL6vNVKf4AAAAC/tenor.gif">`); });
 
 
 
