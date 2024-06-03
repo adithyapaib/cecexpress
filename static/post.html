@@ -5,12 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEMO FOR POST</title>
 </head>
+
+<style>
+    form {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f6;
+    }
+</style>
 <body>
-    <form action="localhost:3000/post" method="post">
+   
+
+    <form action="http://localhost:3000/post" method="post" >
+        <h1> Testing HTTP POST METHOD </h1>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
+        <input type="text" id="name" name="name"><br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+        <input type="email" id="email" name="email"> <br>
+        <label for class="color">Color</label>
+        <input type="text" id="color" name="color"><br>
         <button type="submit">Submit</button>
     </form>
     
