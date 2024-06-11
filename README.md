@@ -1,10 +1,10 @@
+<div style="text-align: center;">
+  <img src="https://img.icons8.com/fluency/60/000000/internet.png" alt="Internet"/>
+  <h1> SUS (SMOL URL SHORTENER) </h1>
+</div>
 
- ![Internet](https://img.icons8.com/fluency/48/000000/internet.png) 
- 
 
-# SUS (SMOL URL SHORTENER)[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Description
